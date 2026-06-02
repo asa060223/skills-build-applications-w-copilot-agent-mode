@@ -1,0 +1,50 @@
+:root {
+  --canvas: #f6efe3;
+  --tone-strong: #132f2f;
+  --tone-body: #345a5a;
+  --tone-muted: #6f7f77;
+  --ember: #d46b2a;
+  --ocean: #0d7b87;
+  --forest: #3b7248;
+  font-family: 'Space Grotesk', 'Avenir Next', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--tone-strong);
+  background:
+    radial-gradient(circle at top left, rgba(255, 221, 169, 0.75), transparent 30%),
+    radial-gradient(circle at top right, rgba(102, 184, 173, 0.35), transparent 28%),
+    linear-gradient(180deg, #fff9f0 0%, var(--canvas) 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: clamp(3rem, 7vw, 5.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+  margin: 0.2em 0;
+}
+
+p {
+  margin: 0;
+}
